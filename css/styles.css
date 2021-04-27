@@ -1,0 +1,174 @@
+.container-fluid {
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+#contact {
+    background-color: #f6f5f5;
+}
+.foot-head {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.foot-link {
+    color: #848687;
+    border: #000;
+}
+.foot-link a {
+    color: #cacccf;
+    text-decoration: none;
+}
+.foot-desc {
+    color: #cacccf;
+}
+h1.title {
+    position: relative;
+    color: #353535;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    margin: 30px auto;
+}
+h1.title a {
+    font-size: 22px;
+}
+.team-member {
+    margin: 0;
+    position: relative;
+    background-color: #ececec;
+    width: 100%;
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.team-member .team-img {
+    position: relative;
+    font-size: 0;
+    color: #353535;
+}
+.team-member .team-img img {
+    width: 100%;
+    height: auto;
+}
+.team-member .team-content {
+    padding: 20px;
+}
+.team-member .team-content h2 {
+    margin: 0 0 5px 0;
+    color: #353535;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.team-member .team-content h3 {
+    margin: 0 0 15px 0;
+    color: #353535;
+    font-size: 14px;
+    font-weight: 300;
+}
+.icon-button {
+    background-color: #fff;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+}
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 0;
+}
+.icon-button:hover span {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 2.6rem;
+    margin: -1.3rem;
+}
+.icon-button i {
+    background: 0 0;
+    color: #fff;
+    height: 2.6rem;
+    left: 0;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 2.6rem;
+    z-index: 10;
+}
+.twitter span {
+    background-color: #4099ff;
+}
+.facebook span {
+    background-color: #3b5998;
+}
+.instagram span {
+    background-color: #a161b1;
+}
+.icon-button .icon-twitter {
+    color: #4099ff;
+}
+.icon-button .icon-facebook {
+    color: #3b5998;
+}
+.icon-button .icon-instagram {
+    color: #517fa4;
+}
+.icon-button i {
+    color: #000;
+}
+.icon-button:hover .fa-instagram, .icon-button:hover .icon-facebook, .icon-button:hover .icon-twitter, .icon-button:hover i {
+    color: #fff;
+}
+@media all and (max-width:680px) {
+    .icon-button {
+    border-radius: 1.6rem;
+    font-size: .8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+}
+.icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -.8rem;
+}
+.icon-button i {
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+}
+}
